@@ -1,0 +1,27 @@
+PLINK v1.90b3.45 64-bit (13 Jan 2017)
+Options in effect:
+  --bfile 7_SNPs_bespokefixed_v4_minRGQ1minGQ20minDP10maxHet0.99missing2_5_v4_mergeGaTKfiltered_4Caracals_joint_allchr_RENAMEDchr_PLINK
+  --out pca_output
+  --pca 10
+
+Hostname: n6129
+Working directory: /u/project/kirk-bigdata/ckyriazi/caracal_pipeline/scripts/step13b_PCA/PLINK_PCA
+Start time: Tue Sep  4 15:15:52 2018
+
+Random number seed: 1536099352
+64518 MB RAM detected; reserving 32259 MB for main workspace.
+Allocated 7654 MB successfully, after larger attempt(s) failed.
+20573947 variants loaded from .bim file.
+4 people (0 males, 0 females, 4 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to pca_output.nosex .
+Using up to 15 threads (change this with --threads).
+Before main variant filters, 4 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.971876.
+20573947 variants and 4 people pass filters and QC.
+Note: No phenotypes present.
+Relationship matrix calculation complete.
+Warning: calculating 4 PCs, since there are only 4 samples.
+--pca: Results saved to pca_output.eigenval and pca_output.eigenvec .
+
+End time: Tue Sep  4 15:16:55 2018

@@ -1,0 +1,12 @@
+PLINK v1.90b3.45 64-bit (13 Jan 2017)
+Options in effect:
+  --pca 7_SNPs_bespokefixed_v4_minRGQ1minGQ20minDP10maxHet0.99missing2_5_v4_mergeGaTKfiltered_4Caracals_joint_allchr_RENAMEDchr_PLINK
+
+Hostname: n2236
+Working directory: /u/project/kirk-bigdata/ckyriazi/caracal_pipeline/scripts/step13b_PCA/PLINK_PCA
+Start time: Tue Sep  4 15:03:48 2018
+
+Error: No input dataset.
+For more information, try 'plink --help [flag name]' or 'plink --help | more'.
+
+End time: Tue Sep  4 15:03:48 2018

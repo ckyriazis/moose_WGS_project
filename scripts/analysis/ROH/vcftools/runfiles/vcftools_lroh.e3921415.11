@@ -1,0 +1,19 @@
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /u/home/c/ckyriazi/kirk-bigdata/caracal_pipeline/analyses/FINAL_VCFs/vcfs_bespoke/8_SNPs_rmFixedNonRef_bespokefixed_v4_minRGQ1minGQ20minDP10maxHet0.99missing2_5_v4_mergeGaTKfiltered_4Caracals_joint_allchr.recode.vcf.gz
+	--chr NC_018733.3
+	--LROH
+	--out NC_018733.3_vcftools_lroh_SNPs_rmFixedNonRef_out
+
+Using zlib version: 1.2.8
+After filtering, kept 4 out of 4 Individuals
+Outputting Long Runs of Homozygosity (Experimental)... 
+	C23
+	MD18
+	NCF02
+	TMC02
+After filtering, kept 230046 out of a possible 4896944 Sites
+Run Time = 14.00 seconds
