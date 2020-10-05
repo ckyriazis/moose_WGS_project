@@ -3,8 +3,8 @@
 #$ -N bcftools_roh
 #$ -cwd
 #$ -m bea
-#$ -o /u/home/c/ckyriazi/kirk-bigdata/moose/hogdeer_output/analysis/ROH_IBD/
-#$ -e /u/home/c/ckyriazi/kirk-bigdata/moose/hogdeer_output/analysis/ROH_IBD/
+#$ -o /u/home/c/ckyriazi/project-klohmuel/moose_pipeline/scripts/analysis/ROH/bcftools/jobfiles	
+#$ -e /u/home/c/ckyriazi/project-klohmuel/moose_pipeline/scripts/analysis/ROH/bcftools/jobfiles
 #$ -M ckyriazi
 
 
@@ -17,11 +17,10 @@
 module load bcftools
 
 
-indir=/u/home/c/ckyriazi/kirk-bigdata/moose/hogdeer_output/13_MergeChroms/
-#indir=/u/home/c/ckyriazi/kirk-bigdata/moose/output/11_FilterVCFfile/filtering_round4/
-infile=9Moose_joint_FilterB_hogdeer_round1_192_scaffolds.vcf.gz
-outdir=/u/home/c/ckyriazi/kirk-bigdata/moose/hogdeer_output/analysis/ROH_IBD/
-outfile=moose_roh_bcftools_hogdeer_round1_G30_2.out
+indir=/u/home/c/ckyriazi/kirk-bigdata/moose/output/genotyping_pipeline/13_MergeChroms/
+infile=18Moose_joint_FilterB_Round9_autosomes.vcf.gz
+outdir=/u/home/c/ckyriazi/kirk-bigdata/moose/output/analysis/ROH_IBD/
+outfile=18moose_round9_roh_bcftools_G30.out
 
 # need -G flag to indicate genotypes rather than genotype likelihoods
 # do i also need to add a flag for calculating allele frequencies????

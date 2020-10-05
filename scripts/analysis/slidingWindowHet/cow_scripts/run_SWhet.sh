@@ -2,10 +2,10 @@
 
 ### Make sure to specify correct filtering directory
 
-cd /u/home/c/ckyriazi/kirk-bigdata/moose/output/11_FilterVCFfile/filtering_round4
+cd /u/home/c/ckyriazi/kirk-bigdata/moose/output/genotyping_pipeline/11_FilterVCFfile/
 outdir=/u/home/c/ckyriazi/kirk-bigdata/moose/output/analysis/slidingWindowHet
-file=9Moose_joint_Filter_B_
-wd=/u/home/c/ckyriazi/project-klohmuel/moose_pipeline/scripts/analysis/slidingWindowHet/cow_scripts/
+file=18Moose_joint_FilterB_Round9_
+wd=/u/home/c/ckyriazi/project-klohmuel/moose_pipeline/scripts/analysis/slidingWindowHet/cow_scripts
 
 
 

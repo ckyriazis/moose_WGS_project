@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/u/home/c/ckyriazi/project-klohmuel/moose_pipeline/scripts/genotyping_pipeline/11_FilterVCFfile/het_dist/make_dist_het_sites.py", line 12, in <module>
+    VCF = gzip.open(filename, 'r')
+  File "/usr/lib64/python2.6/gzip.py", line 33, in open
+    return GzipFile(filename, mode, compresslevel)
+  File "/usr/lib64/python2.6/gzip.py", line 79, in __init__
+    fileobj = self.myfileobj = __builtin__.open(filename, mode or 'rb')
+IOError: [Errno 2] No such file or directory: '18Moose_joint_FilterB_Round11_NC_037354.1.vcf.gz'
+mv: cannot stat `het_dist_18Moose_joint_FilterB_Round11_NC_037354.1.vcf.gz.txt': No such file or directory

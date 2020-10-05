@@ -16,8 +16,8 @@ require(SNPRelate)
 
 #calldate=20180806 # date gt's were called in format YYYYMMDD (set this manually)
 todaysdate=format(Sys.Date(),format="%Y%m%d")
-indir="/u/home/c/ckyriazi/kirk-bigdata/moose/output/15_getPassSites/" # this is where your snp vcf file is and where you will save your gds file
-infilePREFIX="9Moose_joint_Filter_B_round4_allchrom_SNPs_PASS" # exclude the .vcf.gz suffix 
+indir="/u/home/c/ckyriazi/kirk-bigdata/moose/output/genotyping_pipeline/15_getPassSites/" # this is where your snp vcf file is and where you will save your gds file
+infilePREFIX="18Moose_joint_FilterB_Round9_autosomes_SNPs_PASS" # exclude the .vcf.gz suffix 
 outdir="/u/home/c/ckyriazi/kirk-bigdata/moose/output/analysis/SNPrelate/"
 dir.create(outdir,showWarnings = F)
 #read vcf, and reformat to gds (this works with gzipped vcf file)

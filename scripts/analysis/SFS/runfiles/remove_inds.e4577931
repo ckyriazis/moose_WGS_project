@@ -1,0 +1,42 @@
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf 18Moose_joint_FilterB_Round8_NC_037328.1s.vcf.gz
+	--out 18Moose_joint_FilterB_Round8_NC_037328.1s_IR
+	--recode
+	--remove-indv MN15
+	--remove-indv MN178
+	--remove-indv MN31
+	--remove-indv MN41
+	--remove-indv MN54
+	--remove-indv MN72
+	--remove-indv MN76
+	--remove-indv MN92
+	--remove-indv MN96
+
+stat error: No such file or directory
+Error: Can't determine file type of 18Moose_joint_FilterB_Round8_NC_037328.1s.vcf.gz
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf 18Moose_joint_FilterB_Round8_NC_037328.1s.vcf.gz
+	--out 18Moose_joint_FilterB_Round8_NC_037328.1s_MN
+	--recode
+	--remove-indv IR3920
+	--remove-indv IR3921
+	--remove-indv IR3925
+	--remove-indv IR3927
+	--remove-indv IR3928
+	--remove-indv IR3929
+	--remove-indv IR3930
+	--remove-indv IR3931
+	--remove-indv IR3934
+
+stat error: No such file or directory
+Error: Can't determine file type of 18Moose_joint_FilterB_Round8_NC_037328.1s.vcf.gz
+gzip: *recode*: No such file or directory
+mv: cannot stat `*recode*': No such file or directory
