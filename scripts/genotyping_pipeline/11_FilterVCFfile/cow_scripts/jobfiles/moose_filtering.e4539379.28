@@ -1,8 +1,0 @@
-------------------------------------------------------------------------------------------
-Done. ------------------------------------------------------------------------------------------
-Traceback (most recent call last):
-  File "/u/home/c/ckyriazi/project-klohmuel/moose_pipeline/scripts/genotyping_pipeline/11_FilterVCFfile/cow_scripts/customVCFfilter_new.py", line 155, in <module>
-    GT=GTfilter(samples[i],line[i+9],ADpos,DPpos)
-  File "/u/home/c/ckyriazi/project-klohmuel/moose_pipeline/scripts/genotyping_pipeline/11_FilterVCFfile/cow_scripts/customVCFfilter_new.py", line 54, in GTfilter
-    if minD[sample]<=DP<=maxD[sample]:
-TypeError: 'int' object is unsubscriptable
