@@ -1,0 +1,6 @@
+[W::bcf_sr_add_reader] No BGZF EOF marker; file '/u/home/c/ckyriazi/kirk-bigdata/moose/output/genotyping_pipeline/13_MergeChroms/18Moose_joint_FilterB_Round13_autosomes.vcf.gz' may be truncated
+Number of target samples: 18
+Number of --estimate-AF samples: 0
+Number of sites in the buffer/overlap: unlimited
+Number of lines total/processed: -1805599024/59594739
+Number of lines filtered/no AF/not biallelic/dup: 1414190938/637368/1012720896/1

@@ -4,7 +4,7 @@
 
 cd /u/home/c/ckyriazi/kirk-bigdata/moose/output/genotyping_pipeline/11_FilterVCFfile/
 outdir=/u/home/c/ckyriazi/kirk-bigdata/moose/output/analysis/slidingWindowHet
-file=18Moose_joint_FilterB_Round9_
+file=21Moose_joint_FilterB_Round1_
 wd=/u/home/c/ckyriazi/project-klohmuel/moose_pipeline/scripts/analysis/slidingWindowHet/cow_scripts
 
 

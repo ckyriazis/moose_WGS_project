@@ -1,0 +1,123 @@
+[2021-01-28 10:52:26] Start extracting non repetitive regions for cow 1 JOB_ID: 6309844
+The qsub input
+cow 1
+[2021-01-28 10:52:40] Start extracting non repetitive regions for cow 2 JOB_ID: 6309844
+The qsub input
+cow 2
+[2021-01-28 10:53:50] Start extracting non repetitive regions for cow 3 JOB_ID: 6309844
+The qsub input
+cow 3
+[2021-01-28 10:54:02] Start extracting non repetitive regions for cow 4 JOB_ID: 6309844
+The qsub input
+cow 4
+[2021-01-28 10:54:30] Start extracting non repetitive regions for cow 5 JOB_ID: 6309844
+The qsub input
+cow 5
+[2021-01-28 10:58:58] Start extracting non repetitive regions for cow 6 JOB_ID: 6309844
+The qsub input
+cow 6
+[2021-01-28 11:01:26] Start extracting non repetitive regions for cow 7 JOB_ID: 6309844
+The qsub input
+cow 7
+[2021-01-28 11:02:19] Start extracting non repetitive regions for cow 8 JOB_ID: 6309844
+The qsub input
+cow 8
+[2021-01-28 11:04:13] Start extracting non repetitive regions for cow 9 JOB_ID: 6309844
+The qsub input
+cow 9
+[2021-01-28 11:04:39] Start extracting non repetitive regions for cow 10 JOB_ID: 6309844
+The qsub input
+cow 10
+[2021-01-28 11:06:39] Start extracting non repetitive regions for cow 11 JOB_ID: 6309844
+The qsub input
+cow 11
+[2021-01-28 11:06:55] Start extracting non repetitive regions for cow 12 JOB_ID: 6309844
+The qsub input
+cow 12
+[2021-01-28 11:09:20] Start extracting non repetitive regions for cow 13 JOB_ID: 6309844
+The qsub input
+cow 13
+[2021-01-28 11:10:20] Start extracting non repetitive regions for cow 14 JOB_ID: 6309844
+The qsub input
+cow 14
+[2021-01-28 11:10:52] Start extracting non repetitive regions for cow 15 JOB_ID: 6309844
+The qsub input
+cow 15
+[2021-01-28 11:11:18] Start extracting non repetitive regions for cow 16 JOB_ID: 6309844
+The qsub input
+cow 16
+[2021-01-28 11:12:21] Start extracting non repetitive regions for cow 17 JOB_ID: 6309844
+The qsub input
+cow 17
+[2021-01-28 11:14:11] Start extracting non repetitive regions for cow 18 JOB_ID: 6309844
+The qsub input
+cow 18
+[2021-01-28 11:15:07] Start extracting non repetitive regions for cow 19 JOB_ID: 6309844
+The qsub input
+cow 19
+[2021-01-28 11:17:29] Start extracting non repetitive regions for cow 20 JOB_ID: 6309844
+The qsub input
+cow 20
+[2021-01-28 11:18:29] Start extracting non repetitive regions for cow 21 JOB_ID: 6309844
+The qsub input
+cow 21
+[2021-01-28 11:19:46] Start extracting non repetitive regions for cow 22 JOB_ID: 6309844
+The qsub input
+cow 22
+[2021-01-28 11:23:15] Start extracting non repetitive regions for cow 23 JOB_ID: 6309844
+The qsub input
+cow 23
+[2021-01-28 11:26:38] Start extracting non repetitive regions for cow 24 JOB_ID: 6309844
+The qsub input
+cow 24
+[2021-01-28 11:28:13] Start extracting non repetitive regions for cow 25 JOB_ID: 6309844
+The qsub input
+cow 25
+[2021-01-28 11:29:28] Start extracting non repetitive regions for cow 26 JOB_ID: 6309844
+The qsub input
+cow 26
+[2021-01-28 11:31:12] Start extracting non repetitive regions for cow 27 JOB_ID: 6309844
+The qsub input
+cow 27
+[2021-01-28 11:34:50] Start extracting non repetitive regions for cow 28 JOB_ID: 6309844
+The qsub input
+cow 28
+[2021-01-28 11:35:07] Start extracting non repetitive regions for cow 29 JOB_ID: 6309844
+The qsub input
+cow 29
+[2021-01-28 11:35:23] Start extracting non repetitive regions for cow 30 JOB_ID: 6309844
+The qsub input
+cow 30
+[2021-01-28 15:03:52] Done extracting non repeats regions for cow 26 Job ID: 6309844
+[2021-01-28 15:11:40] Done extracting non repeats regions for cow 23 Job ID: 6309844
+[2021-01-28 15:29:02] Done extracting non repeats regions for cow 13 Job ID: 6309844
+[2021-01-28 15:32:22] Done extracting non repeats regions for cow 29 Job ID: 6309844
+[2021-01-28 15:38:01] Done extracting non repeats regions for cow 18 Job ID: 6309844
+[2021-01-28 15:42:08] Done extracting non repeats regions for cow 25 Job ID: 6309844
+[2021-01-28 15:44:43] Done extracting non repeats regions for cow 27 Job ID: 6309844
+[2021-01-28 16:05:28] Done extracting non repeats regions for cow 21 Job ID: 6309844
+[2021-01-28 16:17:20] Done extracting non repeats regions for cow 20 Job ID: 6309844
+[2021-01-28 16:35:23] Done extracting non repeats regions for cow 15 Job ID: 6309844
+[2021-01-28 16:46:39] Done extracting non repeats regions for cow 19 Job ID: 6309844
+[2021-01-28 16:56:40] Done extracting non repeats regions for cow 22 Job ID: 6309844
+[2021-01-28 17:00:05] Done extracting non repeats regions for cow 17 Job ID: 6309844
+[2021-01-28 17:18:16] Done extracting non repeats regions for cow 11 Job ID: 6309844
+[2021-01-28 17:50:49] Done extracting non repeats regions for cow 28 Job ID: 6309844
+[2021-01-28 18:00:00] Done extracting non repeats regions for cow 14 Job ID: 6309844
+[2021-01-28 18:01:00] Done extracting non repeats regions for cow 3 Job ID: 6309844
+[2021-01-28 18:49:58] Done extracting non repeats regions for cow 5 Job ID: 6309844
+[2021-01-28 18:51:47] Done extracting non repeats regions for cow 16 Job ID: 6309844
+[2021-01-28 18:56:42] Done extracting non repeats regions for cow 30 Job ID: 6309844
+[2021-01-28 19:14:08] Done extracting non repeats regions for cow 4 Job ID: 6309844
+[2021-01-28 19:19:07] Done extracting non repeats regions for cow 6 Job ID: 6309844
+[2021-01-28 19:49:44] Done extracting non repeats regions for cow 8 Job ID: 6309844
+[2021-01-28 20:33:15] Done extracting non repeats regions for cow 12 Job ID: 6309844
+[2021-01-28 20:43:01] Done extracting non repeats regions for cow 2 Job ID: 6309844
+[2021-01-28 21:29:11] Done extracting non repeats regions for cow 1 Job ID: 6309844
+[2021-01-28 21:54:36] Done extracting non repeats regions for cow 24 Job ID: 6309844
+[2021-01-28 22:13:55] Done extracting non repeats regions for cow 7 Job ID: 6309844
+[2021-01-28 23:43:51] Done extracting non repeats regions for cow 10 Job ID: 6309844
+[2021-01-29 12:35:01] Start extracting non repetitive regions for cow 9 JOB_ID: 6353765
+The qsub input
+cow 9
+[2021-01-29 20:01:19] Done extracting non repeats regions for cow 9 Job ID: 6353765

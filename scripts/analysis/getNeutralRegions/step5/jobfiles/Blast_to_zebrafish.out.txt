@@ -1,0 +1,15 @@
+[2021-01-08 10:05:46] Start creating fasta file for cow JOB_ID: 6083612
+The qsub input
+cow 6083612
+
+
+Building a new DB, current time: 01/08/2021 10:17:07
+New DB name:   /u/project/klohmuel/ckyriazi/moose_pipeline/reference/zebraFish_genome/Dare_blastdb
+New DB title:  Danio_rerio.GRCz11.dna.toplevel.fa
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 1923 sequences in 1221.42 seconds.
+[2021-02-01 09:55:49] Start creating fasta file for cow JOB_ID: 6398415
+The qsub input
+cow 6398415

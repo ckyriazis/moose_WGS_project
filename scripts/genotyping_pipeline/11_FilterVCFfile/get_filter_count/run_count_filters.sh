@@ -9,8 +9,8 @@
 #$ -M ckyriazi
 
 
-indir=/u/home/c/ckyriazi/kirk-bigdata/moose/output/genotyping_pipeline/11_FilterVCFfile/round9
-infile=18Moose_joint_FilterB_Round9_NC_037354.1.vcf.gz
+indir=/u/home/c/ckyriazi/kirk-bigdata/moose/output/genotyping_pipeline/11_FilterVCFfile/round13
+infile=18Moose_joint_FilterB_Round13_NC_037328.1.vcf.gz
 
 cd ${indir}
 

@@ -18,7 +18,8 @@ FastqDir=$2
 OutDir=$3
 
 java -jar /u/local/apps/picard-tools/2.9.0/picard.jar FastqToSam \
-FASTQ=${FastqDir}/${Individual}.fastq.gz \
+FASTQ=${FastqDir}/${Individual}_01_L007_R1_trimmed.fastq.gz \
+FASTQ2=${FastqDir}/${Individual}_01_L007_R2_trimmed.fastq.gz \
 OUTPUT=${OutDir}/${Individual}/${Individual}_FastqToSam.bam \
 READ_GROUP_NAME=${Individual}_1a \
 SAMPLE_NAME=${Individual} \

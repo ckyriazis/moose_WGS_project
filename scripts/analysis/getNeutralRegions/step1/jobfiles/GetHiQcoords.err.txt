@@ -1,0 +1,66 @@
+
+The 'gcc/4.9.3' module is being loaded
+
+Traceback (most recent call last):
+  File "/u/home/c/ckyriazi/project-klohmuel/moose_pipeline/scripts/analysis/getNeutralRegions/step1/obtain_high_qual_coordinates.py", line 36, in <module>
+    main()
+  File "/u/home/c/ckyriazi/project-klohmuel/moose_pipeline/scripts/analysis/getNeutralRegions/step1/obtain_high_qual_coordinates.py", line 28, in main
+    if not line.startswith("#"):
+TypeError: startswith first arg must be bytes or a tuple of bytes, not str
+Error: Unable to open file HQsitesCoords_.bed. Exiting.
+Error: Unable to open file HQsitesCoords_.bed. Exiting.
+Error: Unable to open file HQsitesCoords_.bed. Exiting.
+Error: Unable to open file HQsitesCoords_.bed. Exiting.
+Error: Unable to open file HQsitesCoords_.bed. Exiting.
+Error: Unable to open file HQsitesCoords_.bed. Exiting.
+Error: Unable to open file HQsitesCoords_.bed. Exiting.
+Error: Unable to open file HQsitesCoords_.bed. Exiting.
+Error: Unable to open file HQsitesCoords_.bed. Exiting.
+Error: Unable to open file HQsitesCoords_.bed. Exiting.
+Error: Unable to open file HQsitesCoords_.bed. Exiting.
+Error: Unable to open file HQsitesCoords_.bed. Exiting.
+Error: Unable to open file HQsitesCoords_.bed. Exiting.
+Error: Unable to open file HQsitesCoords_.bed. Exiting.
+Error: Unable to open file HQsitesCoords_.bed. Exiting.
+Error: Unable to open file HQsitesCoords_.bed. Exiting.
+Error: Unable to open file HQsitesCoords_.bed. Exiting.
+Error: Unable to open file HQsitesCoords_.bed. Exiting.
+Error: Unable to open file HQsitesCoords_.bed. Exiting.
+Error: Unable to open file HQsitesCoords_.bed. Exiting.
+Error: Unable to open file HQsitesCoords_.bed. Exiting.
+Error: Unable to open file HQsitesCoords_.bed. Exiting.
+Error: Unable to open file HQsitesCoords_.bed. Exiting.
+Error: Unable to open file HQsitesCoords_.bed. Exiting.
+Error: Unable to open file HQsitesCoords_.bed. Exiting.
+Error: Unable to open file HQsitesCoords_.bed. Exiting.
+Error: Unable to open file HQsitesCoords_.bed. Exiting.
+Error: Unable to open file HQsitesCoords_.bed. Exiting.
+Error: Unable to open file HQsitesCoords_.bed. Exiting.
+Traceback (most recent call last):
+  File "/u/home/c/ckyriazi/project-klohmuel/moose_pipeline/scripts/analysis/getNeutralRegions/step1/obtain_high_qual_coordinates.py", line 36, in <module>
+    main()
+  File "/u/home/c/ckyriazi/project-klohmuel/moose_pipeline/scripts/analysis/getNeutralRegions/step1/obtain_high_qual_coordinates.py", line 27, in main
+    for line in file:
+  File "/u/local/apps/python/2.7.2/lib/python2.7/gzip.py", line 446, in readline
+    c = self.read(readsize)
+  File "/u/local/apps/python/2.7.2/lib/python2.7/gzip.py", line 252, in read
+    self._read(readsize)
+  File "/u/local/apps/python/2.7.2/lib/python2.7/gzip.py", line 299, in _read
+    self._read_eof()
+  File "/u/local/apps/python/2.7.2/lib/python2.7/gzip.py", line 338, in _read_eof
+    hex(self.crc)))
+IOError: CRC check failed 0xeff49ccf != 0xe7127d4cL
+Traceback (most recent call last):
+  File "/u/home/c/ckyriazi/project-klohmuel/moose_pipeline/scripts/analysis/getNeutralRegions/step1/obtain_high_qual_coordinates.py", line 36, in <module>
+    main()
+  File "/u/home/c/ckyriazi/project-klohmuel/moose_pipeline/scripts/analysis/getNeutralRegions/step1/obtain_high_qual_coordinates.py", line 27, in main
+    for line in file:
+  File "/u/local/apps/python/2.7.2/lib/python2.7/gzip.py", line 446, in readline
+    c = self.read(readsize)
+  File "/u/local/apps/python/2.7.2/lib/python2.7/gzip.py", line 252, in read
+    self._read(readsize)
+  File "/u/local/apps/python/2.7.2/lib/python2.7/gzip.py", line 299, in _read
+    self._read_eof()
+  File "/u/local/apps/python/2.7.2/lib/python2.7/gzip.py", line 338, in _read_eof
+    hex(self.crc)))
+IOError: CRC check failed 0x66665cb4 != 0x1225f3e3L

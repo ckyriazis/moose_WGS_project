@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "generate1DSFS_filtered.py", line 26, in <module>
+    inVCF = gzip.open(vcfFile, 'r')
+  File "/u/local/apps/python/2.7.2/lib/python2.7/gzip.py", line 34, in open
+    return GzipFile(filename, mode, compresslevel)
+  File "/u/local/apps/python/2.7.2/lib/python2.7/gzip.py", line 89, in __init__
+    fileobj = self.myfileobj = __builtin__.open(filename, mode or 'rb')
+IOError: [Errno 2] No such file or directory: '/u/home/c/ckyriazi/kirk-bigdata/moose/output/analysis/SFS/vcfs/18Moose_joint_FilterB_Round13_autosomes_MN.recode.vcf.gz'

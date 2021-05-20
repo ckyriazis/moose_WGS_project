@@ -1,0 +1,72 @@
+[2021-02-01 19:20:09] Start extracting no conserved regions for cow 1 JOB_ID: 6401569
+The qsub input
+cow 1
+[2021-02-01 19:33:04] Start extracting no conserved regions for cow 2 JOB_ID: 6401569
+The qsub input
+cow 2
+[2021-02-01 19:35:08] Start extracting no conserved regions for cow 3 JOB_ID: 6401569
+The qsub input
+cow 3
+[2021-02-01 19:35:25] Start extracting no conserved regions for cow 4 JOB_ID: 6401569
+The qsub input
+cow 4
+[2021-02-01 19:37:07] Start extracting no conserved regions for cow 5 JOB_ID: 6401569
+The qsub input
+cow 5
+[2021-02-01 19:37:25] Start extracting no conserved regions for cow 6 JOB_ID: 6401569
+The qsub input
+cow 6
+[2021-02-01 19:37:25] Start extracting no conserved regions for cow 7 JOB_ID: 6401569
+The qsub input
+cow 7
+[2021-02-01 19:39:55] Start extracting no conserved regions for cow 8 JOB_ID: 6401569
+The qsub input
+cow 8
+[2021-02-01 21:16:24] Start extracting no conserved regions for cow 16 JOB_ID: 6401569
+The qsub input
+cow 16
+[2021-02-01 21:16:24] Start extracting no conserved regions for cow 14 JOB_ID: 6401569
+The qsub input
+cow 14
+[2021-02-01 21:16:51] Start extracting no conserved regions for cow 17 JOB_ID: 6401569
+The qsub input
+cow 17
+[2021-02-01 22:38:45] Start extracting no conserved regions for cow 18 JOB_ID: 6401569
+The qsub input
+cow 18
+[2021-02-01 22:41:13] Start extracting no conserved regions for cow 19 JOB_ID: 6401569
+The qsub input
+cow 19
+[2021-02-01 22:42:08] Start extracting no conserved regions for cow 20 JOB_ID: 6401569
+The qsub input
+cow 20
+[2021-02-01 22:58:50] Start extracting no conserved regions for cow 21 JOB_ID: 6401569
+The qsub input
+cow 21
+[2021-02-01 22:59:55] Start extracting no conserved regions for cow 22 JOB_ID: 6401569
+The qsub input
+cow 22
+[2021-02-01 23:00:09] Start extracting no conserved regions for cow 23 JOB_ID: 6401569
+The qsub input
+cow 23
+[2021-02-02 00:12:39] Start extracting no conserved regions for cow 24 JOB_ID: 6401569
+The qsub input
+cow 24
+[2021-02-02 00:13:32] Start extracting no conserved regions for cow 25 JOB_ID: 6401569
+The qsub input
+cow 25
+[2021-02-02 00:30:13] Start extracting no conserved regions for cow 26 JOB_ID: 6401569
+The qsub input
+cow 26
+[2021-02-02 00:30:14] Start extracting no conserved regions for cow 27 JOB_ID: 6401569
+The qsub input
+cow 27
+[2021-02-02 01:03:11] Start extracting no conserved regions for cow 28 JOB_ID: 6401569
+The qsub input
+cow 28
+[2021-02-02 01:06:31] Start extracting no conserved regions for cow 29 JOB_ID: 6401569
+The qsub input
+cow 29
+[2021-02-02 01:19:14] Start extracting no conserved regions for cow 30 JOB_ID: 6401569
+The qsub input
+cow 30

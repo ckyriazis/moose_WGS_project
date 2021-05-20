@@ -1,0 +1,105 @@
+INFO  08:46:35,443 HelpFormatter - ---------------------------------------------------------------------------------- 
+INFO  08:46:35,447 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.7-0-gcfedb67, Compiled 2016/12/12 11:21:18 
+INFO  08:46:35,447 HelpFormatter - Copyright (c) 2010-2016 The Broad Institute 
+INFO  08:46:35,447 HelpFormatter - For support and documentation go to https://software.broadinstitute.org/gatk 
+INFO  08:46:35,447 HelpFormatter - [Fri Oct 09 08:46:35 PDT 2020] Executing on Linux 2.6.32-754.14.2.el6.x86_64 amd64 
+INFO  08:46:35,447 HelpFormatter - Java HotSpot(TM) 64-Bit Server VM 1.8.0_77-b03 
+INFO  08:46:35,451 HelpFormatter - Program Args: -T SelectVariants -R /u/home/c/ckyriazi/project-klohmuel/moose_pipeline/reference/GCF_002263795.1_ARS-UCD1.2_genomic.fna -V 18Moose_joint_VEP_NC_037328.1.vcf.gz -selectType SNP -o /u/home/c/ckyriazi/kirk-bigdata/moose/output/genotyping_pipeline/11_FilterVCFfile/annotation_tables/18Moose_joint_VEP_NC_037328.1_snps.vcf 
+INFO  08:46:35,457 HelpFormatter - Executing as ckyriazi@n6128 on Linux 2.6.32-754.14.2.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_77-b03. 
+INFO  08:46:35,457 HelpFormatter - Date/Time: 2020/10/09 08:46:35 
+INFO  08:46:35,457 HelpFormatter - ---------------------------------------------------------------------------------- 
+INFO  08:46:35,458 HelpFormatter - ---------------------------------------------------------------------------------- 
+INFO  08:46:35,615 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  08:46:36,170 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE, Target Coverage: 1000 
+WARN  08:46:36,417 IndexDictionaryUtils - Track variant doesn't have a sequence dictionary built in, skipping dictionary validation 
+INFO  08:46:36,993 GenomeAnalysisEngine - Preparing for traversal 
+INFO  08:46:36,999 GenomeAnalysisEngine - Done preparing for traversal 
+INFO  08:46:36,999 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  08:46:37,000 ProgressMeter -                 | processed |    time |    per 1M |           |   total | remaining 
+INFO  08:46:37,000 ProgressMeter -        Location |     sites | elapsed |     sites | completed | runtime |   runtime 
+INFO  08:47:07,003 ProgressMeter - NC_037328.1:2734801   2000000.0    30.0 s      15.0 s        0.1%     8.3 h       8.3 h 
+INFO  08:47:37,004 ProgressMeter - NC_037328.1:5322001   5000000.0    60.0 s      12.0 s        0.2%     8.5 h       8.5 h 
+INFO  08:48:07,006 ProgressMeter - NC_037328.1:7870701   7000000.0    90.0 s      12.0 s        0.3%     8.6 h       8.6 h 
+INFO  08:48:37,007 ProgressMeter - NC_037328.1:10478001   9999900.0   120.0 s      12.0 s        0.4%     8.6 h       8.6 h 
+INFO  08:49:07,008 ProgressMeter - NC_037328.1:13164201   1.29999E7     2.5 m      11.0 s        0.5%     8.6 h       8.6 h 
+INFO  08:49:37,009 ProgressMeter - NC_037328.1:16006501   1.59999E7     3.0 m      11.0 s        0.6%     8.5 h       8.4 h 
+INFO  08:50:17,010 ProgressMeter - NC_037328.1:19538401   1.89999E7     3.7 m      11.0 s        0.7%     8.5 h       8.4 h 
+INFO  08:50:47,011 ProgressMeter - NC_037328.1:22192801   2.19999E7     4.2 m      11.0 s        0.8%     8.5 h       8.4 h 
+INFO  08:51:17,015 ProgressMeter - NC_037328.1:24856401   2.39999E7     4.7 m      11.0 s        0.9%     8.5 h       8.4 h 
+INFO  08:51:57,016 ProgressMeter - NC_037328.1:28384401   2.79998E7     5.3 m      11.0 s        1.0%     8.5 h       8.4 h 
+INFO  08:52:27,016 ProgressMeter - NC_037328.1:31091501   3.09998E7     5.8 m      11.0 s        1.1%     8.5 h       8.4 h 
+INFO  08:52:57,017 ProgressMeter - NC_037328.1:33862701   3.29998E7     6.3 m      11.0 s        1.2%     8.5 h       8.4 h 
+INFO  08:53:27,018 ProgressMeter - NC_037328.1:36557701   3.59998E7     6.8 m      11.0 s        1.3%     8.5 h       8.3 h 
+INFO  08:54:07,019 ProgressMeter - NC_037328.1:40225601   3.99998E7     7.5 m      11.0 s        1.5%     8.4 h       8.3 h 
+INFO  08:54:47,020 ProgressMeter - NC_037328.1:43847201   4.29998E7     8.2 m      11.0 s        1.6%     8.4 h       8.3 h 
+INFO  08:55:17,029 ProgressMeter - NC_037328.1:46394501   4.59998E7     8.7 m      11.0 s        1.7%     8.5 h       8.3 h 
+INFO  08:55:47,030 ProgressMeter - NC_037328.1:49114101   4.89998E7     9.2 m      11.0 s        1.8%     8.4 h       8.3 h 
+INFO  08:56:17,031 ProgressMeter - NC_037328.1:51829701   5.09998E7     9.7 m      11.0 s        1.9%     8.4 h       8.3 h 
+INFO  08:56:57,031 ProgressMeter - NC_037328.1:55314001   5.49998E7    10.3 m      11.0 s        2.0%     8.5 h       8.3 h 
+INFO  08:57:27,032 ProgressMeter - NC_037328.1:57932201   5.6999675E7    10.8 m      11.0 s        2.1%     8.5 h       8.3 h 
+INFO  08:57:57,033 ProgressMeter - NC_037328.1:60702801   5.9999675E7    11.3 m      11.0 s        2.2%     8.5 h       8.3 h 
+INFO  08:58:27,034 ProgressMeter - NC_037328.1:63409001   6.2999675E7    11.8 m      11.0 s        2.3%     8.4 h       8.2 h 
+INFO  08:58:57,035 ProgressMeter - NC_037328.1:66038901   6.5999675E7    12.3 m      11.0 s        2.4%     8.5 h       8.2 h 
+INFO  08:59:37,036 ProgressMeter - NC_037328.1:69359601   6.8999675E7    13.0 m      11.0 s        2.6%     8.5 h       8.3 h 
+INFO  09:00:07,037 ProgressMeter - NC_037328.1:71954401   7.0999675E7    13.5 m      11.0 s        2.6%     8.5 h       8.3 h 
+INFO  09:00:37,037 ProgressMeter - NC_037328.1:74585401   7.3999675E7    14.0 m      11.0 s        2.7%     8.5 h       8.3 h 
+INFO  09:01:07,040 ProgressMeter - NC_037328.1:77278401   7.6999675E7    14.5 m      11.0 s        2.8%     8.5 h       8.3 h 
+INFO  09:01:37,041 ProgressMeter - NC_037328.1:79906101   7.8999675E7    15.0 m      11.0 s        2.9%     8.5 h       8.2 h 
+INFO  09:02:17,042 ProgressMeter - NC_037328.1:83337201   8.2999675E7    15.7 m      11.0 s        3.1%     8.5 h       8.2 h 
+INFO  09:02:47,043 ProgressMeter - NC_037328.1:85969401   8.4999675E7    16.2 m      11.0 s        3.2%     8.5 h       8.2 h 
+INFO  09:03:17,043 ProgressMeter - NC_037328.1:88709151   8.799955E7    16.7 m      11.0 s        3.3%     8.5 h       8.2 h 
+INFO  09:03:47,044 ProgressMeter - NC_037328.1:91410701   9.09995E7    17.2 m      11.0 s        3.4%     8.5 h       8.2 h 
+INFO  09:04:27,045 ProgressMeter - NC_037328.1:95027501   9.49995E7    17.8 m      11.0 s        3.5%     8.5 h       8.2 h 
+INFO  09:04:57,045 ProgressMeter - NC_037328.1:97641801   9.69995E7    18.3 m      11.0 s        3.6%     8.5 h       8.2 h 
+INFO  09:05:27,046 ProgressMeter - NC_037328.1:100331301   9.99995E7    18.8 m      11.0 s        3.7%     8.5 h       8.2 h 
+INFO  09:05:57,047 ProgressMeter - NC_037328.1:103135801   1.029995E8    19.3 m      11.0 s        3.8%     8.5 h       8.2 h 
+INFO  09:06:37,048 ProgressMeter - NC_037328.1:106967901   1.059995E8    20.0 m      11.0 s        3.9%     8.5 h       8.1 h 
+INFO  09:07:07,049 ProgressMeter - NC_037328.1:109554001   1.089995E8    20.5 m      11.0 s        4.0%     8.5 h       8.1 h 
+INFO  09:07:47,050 ProgressMeter - NC_037328.1:113090701   1.129995E8    21.2 m      11.0 s        4.2%     8.5 h       8.1 h 
+INFO  09:08:17,051 ProgressMeter - NC_037328.1:115722901   1.149995E8    21.7 m      11.0 s        4.3%     8.5 h       8.1 h 
+INFO  09:08:47,052 ProgressMeter - NC_037328.1:118351101   1.179995E8    22.2 m      11.0 s        4.4%     8.5 h       8.1 h 
+INFO  09:09:17,052 ProgressMeter - NC_037328.1:120984301   1.199995E8    22.7 m      11.0 s        4.5%     8.5 h       8.1 h 
+INFO  09:09:47,053 ProgressMeter - NC_037328.1:123808201   1.229995E8    23.2 m      11.0 s        4.6%     8.5 h       8.1 h 
+INFO  09:10:27,054 ProgressMeter - NC_037328.1:127387601   1.269995E8    23.8 m      11.0 s        4.7%     8.5 h       8.1 h 
+INFO  09:11:07,055 ProgressMeter - NC_037328.1:130711101   1.299995E8    24.5 m      11.0 s        4.8%     8.5 h       8.1 h 
+INFO  09:11:37,056 ProgressMeter - NC_037328.1:133432001   1.329995E8    25.0 m      11.0 s        4.9%     8.5 h       8.1 h 
+INFO  09:12:17,057 ProgressMeter - NC_037328.1:136888501   1.359995E8    25.7 m      11.0 s        5.0%     8.5 h       8.1 h 
+INFO  09:12:47,058 ProgressMeter - NC_037328.1:139533501   1.389995E8    26.2 m      11.0 s        5.1%     8.5 h       8.1 h 
+INFO  09:13:17,058 ProgressMeter - NC_037328.1:142127801   1.41999475E8    26.7 m      11.0 s        5.2%     8.5 h       8.0 h 
+INFO  09:13:47,060 ProgressMeter - NC_037328.1:144672001   1.43999475E8    27.2 m      11.0 s        5.3%     8.5 h       8.0 h 
+INFO  09:14:17,061 ProgressMeter - NC_037328.1:147262801   1.46999475E8    27.7 m      11.0 s        5.4%     8.5 h       8.0 h 
+INFO  09:14:47,062 ProgressMeter - NC_037328.1:149873501   1.48999475E8    28.2 m      11.0 s        5.5%     8.5 h       8.0 h 
+INFO  09:15:27,062 ProgressMeter - NC_037328.1:153503501   1.52999475E8    28.8 m      11.0 s        5.7%     8.5 h       8.0 h 
+INFO  09:15:57,063 ProgressMeter - NC_037328.1:156213401   1.55999475E8    29.3 m      11.0 s        5.8%     8.5 h       8.0 h 
+INFO  09:16:22,022 SelectVariants - 158532931 records processed. 
+INFO  09:16:22,363 ProgressMeter -            done   1.58532931E8    29.8 m      11.0 s        5.8%     8.5 h       8.0 h 
+INFO  09:16:22,363 ProgressMeter - Total runtime 1785.36 secs, 29.76 min, 0.50 hours 
+------------------------------------------------------------------------------------------
+Done. ------------------------------------------------------------------------------------------
+INFO  09:16:24,052 HelpFormatter - ---------------------------------------------------------------------------------- 
+INFO  09:16:24,055 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.7-0-gcfedb67, Compiled 2016/12/12 11:21:18 
+INFO  09:16:24,055 HelpFormatter - Copyright (c) 2010-2016 The Broad Institute 
+INFO  09:16:24,055 HelpFormatter - For support and documentation go to https://software.broadinstitute.org/gatk 
+INFO  09:16:24,055 HelpFormatter - [Fri Oct 09 09:16:24 PDT 2020] Executing on Linux 2.6.32-754.14.2.el6.x86_64 amd64 
+INFO  09:16:24,055 HelpFormatter - Java HotSpot(TM) 64-Bit Server VM 1.8.0_77-b03 
+INFO  09:16:24,058 HelpFormatter - Program Args: -R /u/home/c/ckyriazi/project-klohmuel/moose_pipeline/reference/GCF_002263795.1_ARS-UCD1.2_genomic.fna -T VariantsToTable -V /u/home/c/ckyriazi/kirk-bigdata/moose/output/genotyping_pipeline/11_FilterVCFfile/annotation_tables/18Moose_joint_VEP_NC_037328.1_snps.vcf --allowMissingData -F AN -F BaseQRankSum -F DP -F FS -F MQ -F MQRankSum -F QD -F ReadPosRankSum -F SOR --out /u/home/c/ckyriazi/kirk-bigdata/moose/output/genotyping_pipeline/11_FilterVCFfile/annotation_tables/18Moose_joint_VEP_NC_037328.1_SNPs_table.txt 
+INFO  09:16:24,064 HelpFormatter - Executing as ckyriazi@n6128 on Linux 2.6.32-754.14.2.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_77-b03. 
+INFO  09:16:24,064 HelpFormatter - Date/Time: 2020/10/09 09:16:24 
+INFO  09:16:24,064 HelpFormatter - ---------------------------------------------------------------------------------- 
+INFO  09:16:24,064 HelpFormatter - ---------------------------------------------------------------------------------- 
+INFO  09:16:24,967 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  09:16:25,480 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE, Target Coverage: 1000 
+INFO  09:16:26,325 GenomeAnalysisEngine - Preparing for traversal 
+INFO  09:16:26,329 GenomeAnalysisEngine - Done preparing for traversal 
+INFO  09:16:26,329 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  09:16:26,330 ProgressMeter -                 | processed |    time |    per 1M |           |   total | remaining 
+INFO  09:16:26,330 ProgressMeter -        Location |     sites | elapsed |     sites | completed | runtime |   runtime 
+INFO  09:16:56,333 ProgressMeter - NC_037328.1:27015623   1454803.0    30.0 s      20.0 s        1.0%    50.3 m      49.8 m 
+INFO  09:17:26,334 ProgressMeter - NC_037328.1:54961686   2854393.0    60.0 s      21.0 s        2.0%    49.4 m      48.4 m 
+INFO  09:17:56,335 ProgressMeter - NC_037328.1:80723017   4226583.0    90.0 s      21.0 s        3.0%    50.5 m      49.0 m 
+INFO  09:18:26,337 ProgressMeter - NC_037328.1:108466802   5660826.0   120.0 s      21.0 s        4.0%    50.1 m      48.1 m 
+INFO  09:19:06,338 ProgressMeter - NC_037328.1:142597704   7524745.0     2.7 m      21.0 s        5.3%    50.8 m      48.1 m 
+INFO  09:19:27,448 ProgressMeter -            done   8529412.0     3.0 m      21.0 s        5.8%    51.7 m      48.7 m 
+INFO  09:19:27,449 ProgressMeter - Total runtime 181.12 secs, 3.02 min, 0.05 hours 
+------------------------------------------------------------------------------------------
+Done. ------------------------------------------------------------------------------------------

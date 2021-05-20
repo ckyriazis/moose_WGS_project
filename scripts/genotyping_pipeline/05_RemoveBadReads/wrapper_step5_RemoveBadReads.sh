@@ -2,7 +2,7 @@
 
 
 # Uncomment the line below and fill in the name of the individuals.
-individuals_array=(IR3920 IR3921 IR3930 IR3934 MN15 MN178 MN72 MN76 MN92)
+individuals_array=(HM2013 C06)
 
 for i in "${individuals_array[@]}"
 do

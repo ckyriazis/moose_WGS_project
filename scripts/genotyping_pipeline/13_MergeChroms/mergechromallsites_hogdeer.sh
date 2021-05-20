@@ -22,9 +22,9 @@ GATK="/u/home/c/ckyriazi/project-klohmuel/software/gatk_37/GenomeAnalysisTK.jar"
 REFERENCE=/u/home/c/ckyriazi/project-klohmuel/moose_pipeline/hogdeer_reference/GCA_003798545.1_ASM379854v1_genomic.fna
 
 
-indir='/u/home/c/ckyriazi/kirk-bigdata/moose/hogdeer_output/11_FilterVCFfile'
-outdir='/u/home/c/ckyriazi/kirk-bigdata/moose/hogdeer_output/13_MergeChroms'
-prefix='9Moose_joint_FilterB_hogdeer_round1'
+indir='/u/home/c/ckyriazi/kirk-bigdata/moose/hogdeer_output/genotyping_pipeline/11_FilterVCFfile'
+outdir='/u/home/c/ckyriazi/kirk-bigdata/moose/hogdeer_output/genotyping_pipeline/13_MergeChroms'
+prefix='9Moose_joint_FilterB_Round2'
 suffix='.vcf.gz'
 
 

@@ -58,7 +58,7 @@ for line0 in inVCF:
     homAltAll = all_calls.count("1/1") + all_calls.count("1|1") + all_calls.count("./.")
     if homAltAll == len(samples):
         continue
-    # skip sites that are fixed ref - note that this seems unnecessary since they wont have SYN annotation
+    # skip sites that are fixed ref
     homRefAll = all_calls.count("0/0") + all_calls.count("0|0") + all_calls.count("./.")
     if homRefAll == len(samples):
         continue

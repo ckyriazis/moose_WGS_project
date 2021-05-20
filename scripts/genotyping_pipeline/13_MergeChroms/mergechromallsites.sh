@@ -9,9 +9,9 @@ GATK="/u/home/c/ckyriazi/project-klohmuel/software/gatk_37/GenomeAnalysisTK.jar"
 REFERENCE=/u/home/c/ckyriazi/project-klohmuel/moose_pipeline/reference/GCF_002263795.1_ARS-UCD1.2_genomic.fna
 
 
-indir='/u/home/c/ckyriazi/kirk-bigdata/moose/output/genotyping_pipeline/11_FilterVCFfile/round9'
+indir='/u/home/c/ckyriazi/kirk-bigdata/moose/output/genotyping_pipeline/11_FilterVCFfile/'
 outdir='/u/home/c/ckyriazi/kirk-bigdata/moose/output/genotyping_pipeline/13_MergeChroms'
-prefix='18Moose_joint_FilterB_Round9_'
+prefix='21Moose_joint_FilterB_Round1_'
 suffix='.vcf.gz'
 
 Chrom1=NC_037328.1

@@ -1,5 +1,5 @@
 #!/bin/bash
 
 
-qsub -N step9 -t 17-17:1 09_TrimAlternates_VariantAnnotator.sh
+qsub -N step9 -m abe -t 1-1:1 09_TrimAlternates_VariantAnnotator.sh
 

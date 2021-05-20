@@ -1,0 +1,13 @@
+VCF Format ==> SNP GDS Format
+Method: exacting biallelic SNPs
+Number of samples: 21
+Parsing "/u/home/c/ckyriazi/kirk-bigdata/moose/output/genotyping_pipeline/15_getPassSites/21Moose_joint_FilterB_Round1_autosomes_SNPs_PASS.vcf.gz" ...
+	import 61860391 variants.
++ genotype   { Bit2 21x61860391, 309.7M } *
+Optimize the access efficiency ...
+Clean up the fragments of GDS file:
+    open the file '/u/home/c/ckyriazi/kirk-bigdata/moose/output/analysis/SNPrelate/21Moose_joint_FilterB_Round1_autosomes_SNPs_PASS.gds' (685.3M)
+    # of fragments: 9372
+    save to '/u/home/c/ckyriazi/kirk-bigdata/moose/output/analysis/SNPrelate/21Moose_joint_FilterB_Round1_autosomes_SNPs_PASS.gds.tmp'
+    rename '/u/home/c/ckyriazi/kirk-bigdata/moose/output/analysis/SNPrelate/21Moose_joint_FilterB_Round1_autosomes_SNPs_PASS.gds.tmp' (685.2M, reduced: 109.6K)
+    # of fragments: 20

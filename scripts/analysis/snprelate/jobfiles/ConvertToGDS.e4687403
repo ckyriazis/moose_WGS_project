@@ -1,0 +1,17 @@
+
+The 'gcc/4.9.3' module is being loaded
+
+	These modules were already loaded: ATS intel/18.0.4 gdal/1.9.2 proj/4.9.3 geos/3.4.2 zlib/1.2.8 bzip2/1.0.6 xz/5.2.2 pcre/8.39 curl/7.49.1
+
+	Unloading the conflicting module 'intel/18.0.4'
+
+Loading required package: gdsfmt
+Loading required package: methods
+Loading required package: SNPRelate
+SNPRelate -- supported by Streaming SIMD Extensions 2 (SSE2)
+Error in file(filename, "rt") : cannot open the connection
+Calls: snpgdsVCF2GDS -> VCF_SampID -> .OpenConnText -> file
+In addition: Warning message:
+In file(filename, "rt") :
+  cannot open file '/u/home/c/ckyriazi/kirk-bigdata/moose/output/genotyping_pipeline/15_getPassSites/18Moose_joint_FilterB_Round13_autosomes_SNPs_PASS.vcf.gz': No such file or directory
+Execution halted

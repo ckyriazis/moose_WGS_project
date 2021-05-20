@@ -116,8 +116,8 @@ TABIX=/u/home/c/ckyriazi/project-klohmuel/software/htslib-1.3.2/tabix
 INDIR=/u/home/c/ckyriazi/kirk-bigdata/moose/output/genotyping_pipeline/09_TrimAlternates_VariantAnnotator
 OUTDIR=/u/home/c/ckyriazi/kirk-bigdata/moose/output/genotyping_pipeline/10_VEP
 
-INFILE=${INDIR}/18Moose_joint_VariantAnnotator_${Chrom}.vcf.gz
-OUTFILE=${OUTDIR}/18Moose_joint_VEP_${Chrom}.vcf.gz
+INFILE=${INDIR}/21Moose_joint_VariantAnnotator_${Chrom}.vcf.gz
+OUTFILE=${OUTDIR}/21Moose_joint_VEP_${Chrom}.vcf.gz
 
 perl ${VEPDIR}/vep \
 --dir ${VEPDIR} --cache --vcf --offline --sift b --species bos_taurus \

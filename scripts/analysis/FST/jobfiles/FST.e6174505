@@ -1,0 +1,20 @@
+
+VCFtools - 0.1.14
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--gzvcf /u/home/c/ckyriazi/kirk-bigdata/moose/output/genotyping_pipeline/15_getPassSites//21Moose_joint_FilterB_Round1_autosomes_SNPs_PASS.vcf.gz
+	--weir-fst-pop pop_files/MN_inds.txt
+	--weir-fst-pop pop_files/Rockies_inds.txt
+	--keep pop_files/MN_inds.txt
+	--keep pop_files/Rockies_inds.txt
+	--out /u/home/c/ckyriazi/kirk-bigdata/moose/output/analysis/FST/MN_Rockies_21Moose_joint_FilterB_Round1_autosomes_SNPs_PASS
+
+Using zlib version: 1.2.8
+Keeping individuals in 'keep' list
+After filtering, kept 11 out of 21 Individuals
+Outputting Weir and Cockerham Fst estimates.
+Weir and Cockerham mean Fst estimate: 0.024055
+Weir and Cockerham weighted Fst estimate: 0.14165
+After filtering, kept 61860391 out of a possible 61860391 Sites
+Run Time = 1253.00 seconds

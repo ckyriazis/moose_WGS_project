@@ -12,15 +12,17 @@
 # This script is for running bcftools roh given vcf input
 # see here https://samtools.github.io/bcftools/bcftools.html#roh and here https://samtools.github.io/bcftools/howtos/roh-calling.html for details
 
+# usage: qsub run_bcftools_roh.sh
+
 
 . /u/local/Modules/default/init/modules.sh
 module load bcftools
 
 
 indir=/u/home/c/ckyriazi/kirk-bigdata/moose/output/genotyping_pipeline/13_MergeChroms/
-infile=18Moose_joint_FilterB_Round9_autosomes.vcf.gz
+infile=21Moose_joint_FilterB_Round1_autosomes_noSMoose_bcftools.vcf.gz
 outdir=/u/home/c/ckyriazi/kirk-bigdata/moose/output/analysis/ROH_IBD/
-outfile=18moose_round9_roh_bcftools_G30.out
+outfile=21moose_round1_roh_bcftools_G30_noSMoose.out
 
 # need -G flag to indicate genotypes rather than genotype likelihoods
 # do i also need to add a flag for calculating allele frequencies????

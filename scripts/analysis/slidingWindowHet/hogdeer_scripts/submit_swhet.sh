@@ -1,11 +1,11 @@
 #!/bin/bash
-#$ -l highp,h_rt=24:00:00,h_data=4G
+#$ -l h_rt=24:00:00,h_data=4G
 #$ -pe shared 4
 #$ -N swHet
 #$ -cwd
 #$ -m bea
-#$ -o /u/home/c/ckyriazi/kirk-bigdata/moose/hogdeer_output/analysis/slidingWindowHet
-#$ -e /u/home/c/ckyriazi/kirk-bigdata/moose/hogdeer_output/analysis/slidingWindowHet
+#$ -o /u/home/c/ckyriazi/project-klohmuel/moose_pipeline/scripts/analysis/slidingWindowHet/hogdeer_scripts/runfiles
+#$ -e /u/home/c/ckyriazi/project-klohmuel/moose_pipeline/scripts/analysis/slidingWindowHet/hogdeer_scripts/runfiles
 #$ -M ckyriazi
 
 
@@ -24,12 +24,12 @@
 module load python/2.7
 
 SCRIPT=/u/home/c/ckyriazi/project-klohmuel/moose_pipeline/scripts/analysis/slidingWindowHet/hogdeer_scripts/SlidingWindowHet.py
-INDIR=/u/home/c/ckyriazi/kirk-bigdata/moose/hogdeer_output/11_FilterVCFfile
+INDIR=/u/home/c/ckyriazi/kirk-bigdata/moose/hogdeer_output/genotyping_pipeline/11_FilterVCFfile
 CHROM=$(cut -f1 chrom_lengths.txt | head -n ${SGE_TASK_ID} | tail -n 1 )
 SG=${SGE_TASK_ID}
-VCF=${INDIR}/9Moose_joint_FilterB_hogdeer_round1_${SG}.vcf.gz
+VCF=${INDIR}/9Moose_joint_FilterB_Round2_${SG}.vcf.gz
 
-python ${SCRIPT} ${VCF} 100000 100000 ${CHROM}
+python ${SCRIPT} ${VCF} 1000000 1000000 ${CHROM}
 
-mv ${INDIR}/*step.txt /u/home/c/ckyriazi/kirk-bigdata/moose/hogdeer_output/analysis/slidingWindowHet
+mv ${INDIR}/9Moose_joint_FilterB_Round2_${SG}*txt /u/home/c/ckyriazi/kirk-bigdata/moose/hogdeer_output/analysis/slidingWindowHet
 

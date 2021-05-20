@@ -1,0 +1,2 @@
+[E::hts_open_format] Failed to open file "/u/home/c/ckyriazi/kirk-bigdata/moose/output/genotyping_pipeline/13_MergeChroms/21Moose_joint_FilterB_Round1_autosomes.vcf.gzz" : No such file or directory
+Failed to read from /u/home/c/ckyriazi/kirk-bigdata/moose/output/genotyping_pipeline/13_MergeChroms/21Moose_joint_FilterB_Round1_autosomes.vcf.gzz: No such file or directory

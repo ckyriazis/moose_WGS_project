@@ -11,7 +11,7 @@
 
 indir=/u/home/c/ckyriazi/kirk-bigdata/moose/output/genotyping_pipeline/11_FilterVCFfile/
 #indir=/u/home/c/ckyriazi/kirk-bigdata/moose/output/genotyping_pipeline/10_VEP/
-infile=18Moose_joint_FilterB_Round12_NC_037354.1.vcf.gz
+infile=18Moose_joint_FilterB_Round13_NC_037354.1.vcf.gz
 
 cd ${indir}
 

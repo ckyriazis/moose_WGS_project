@@ -1,0 +1,97 @@
+INFO  22:06:29,127 HelpFormatter - ---------------------------------------------------------------------------------- 
+INFO  22:06:29,129 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.7-0-gcfedb67, Compiled 2016/12/12 11:21:18 
+INFO  22:06:29,129 HelpFormatter - Copyright (c) 2010-2016 The Broad Institute 
+INFO  22:06:29,129 HelpFormatter - For support and documentation go to https://software.broadinstitute.org/gatk 
+INFO  22:06:29,129 HelpFormatter - [Thu Oct 08 22:06:29 PDT 2020] Executing on Linux 2.6.32-754.23.1.el6.x86_64 amd64 
+INFO  22:06:29,129 HelpFormatter - Java HotSpot(TM) 64-Bit Server VM 1.8.0_77-b03 
+INFO  22:06:29,132 HelpFormatter - Program Args: -T SelectVariants -R /u/home/c/ckyriazi/project-klohmuel/moose_pipeline/reference/GCF_002263795.1_ARS-UCD1.2_genomic.fna -V 18Moose_joint_FilterB_Round13_NC_037328.1.vcf.gz -selectType SNP -o /u/home/c/ckyriazi/kirk-bigdata/moose/output/genotyping_pipeline/11_FilterVCFfile/annotation_tables/NC_037328.1_snps.vcf 
+INFO  22:06:29,138 HelpFormatter - Executing as ckyriazi@n7451 on Linux 2.6.32-754.23.1.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_77-b03. 
+INFO  22:06:29,138 HelpFormatter - Date/Time: 2020/10/08 22:06:29 
+INFO  22:06:29,138 HelpFormatter - ---------------------------------------------------------------------------------- 
+INFO  22:06:29,138 HelpFormatter - ---------------------------------------------------------------------------------- 
+INFO  22:06:29,176 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  22:06:29,582 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE, Target Coverage: 1000 
+WARN  22:06:29,726 IndexDictionaryUtils - Track variant doesn't have a sequence dictionary built in, skipping dictionary validation 
+INFO  22:06:30,071 GenomeAnalysisEngine - Preparing for traversal 
+INFO  22:06:30,075 GenomeAnalysisEngine - Done preparing for traversal 
+INFO  22:06:30,076 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  22:06:30,076 ProgressMeter -                 | processed |    time |    per 1M |           |   total | remaining 
+INFO  22:06:30,077 ProgressMeter -        Location |     sites | elapsed |     sites | completed | runtime |   runtime 
+INFO  22:07:00,079 ProgressMeter - NC_037328.1:4055301   4000000.0    30.0 s       7.0 s        0.1%     5.6 h       5.6 h 
+INFO  22:07:30,080 ProgressMeter - NC_037328.1:8125901   8000000.0    60.0 s       7.0 s        0.3%     5.6 h       5.6 h 
+INFO  22:08:10,081 ProgressMeter - NC_037328.1:13181501   1.29999E7   100.0 s       7.0 s        0.5%     5.7 h       5.7 h 
+INFO  22:08:40,082 ProgressMeter - NC_037328.1:17352201   1.69999E7     2.2 m       7.0 s        0.6%     5.7 h       5.6 h 
+INFO  22:09:10,085 ProgressMeter - NC_037328.1:21422901   2.09999E7     2.7 m       7.0 s        0.8%     5.6 h       5.6 h 
+INFO  22:09:40,182 ProgressMeter - NC_037328.1:25452101   2.49999E7     3.2 m       7.0 s        0.9%     5.6 h       5.6 h 
+INFO  22:10:10,183 ProgressMeter - NC_037328.1:29291501   2.89998E7     3.7 m       7.0 s        1.1%     5.7 h       5.6 h 
+INFO  22:10:40,195 ProgressMeter - NC_037328.1:33369801   3.29998E7     4.2 m       7.0 s        1.2%     5.7 h       5.6 h 
+INFO  22:11:20,196 ProgressMeter - NC_037328.1:38400001   3.79998E7     4.8 m       7.0 s        1.4%     5.7 h       5.6 h 
+INFO  22:12:00,197 ProgressMeter - NC_037328.1:44123401   4.39998E7     5.5 m       7.0 s        1.6%     5.6 h       5.6 h 
+INFO  22:12:30,198 ProgressMeter - NC_037328.1:48007401   4.79998E7     6.0 m       7.0 s        1.8%     5.7 h       5.6 h 
+INFO  22:13:00,198 ProgressMeter - NC_037328.1:52132101   5.19998E7     6.5 m       7.0 s        1.9%     5.6 h       5.5 h 
+INFO  22:13:30,299 ProgressMeter - NC_037328.1:55835901   5.49998E7     7.0 m       7.0 s        2.1%     5.7 h       5.6 h 
+INFO  22:14:00,300 ProgressMeter - NC_037328.1:59582101   5.8999675E7     7.5 m       7.0 s        2.2%     5.7 h       5.6 h 
+INFO  22:14:30,302 ProgressMeter - NC_037328.1:63461001   6.2999675E7     8.0 m       7.0 s        2.3%     5.7 h       5.6 h 
+INFO  22:15:00,318 ProgressMeter - NC_037328.1:67425001   6.6999675E7     8.5 m       7.0 s        2.5%     5.7 h       5.6 h 
+INFO  22:15:30,318 ProgressMeter - NC_037328.1:71225301   7.0999675E7     9.0 m       7.0 s        2.6%     5.7 h       5.6 h 
+INFO  22:16:00,439 ProgressMeter - NC_037328.1:75144601   7.4999675E7     9.5 m       7.0 s        2.8%     5.7 h       5.6 h 
+INFO  22:16:30,441 ProgressMeter - NC_037328.1:79119001   7.8999675E7    10.0 m       7.0 s        2.9%     5.7 h       5.6 h 
+INFO  22:17:00,443 ProgressMeter - NC_037328.1:82831401   8.1999675E7    10.5 m       7.0 s        3.0%     5.7 h       5.6 h 
+INFO  22:17:30,445 ProgressMeter - NC_037328.1:86570801   8.5999675E7    11.0 m       7.0 s        3.2%     5.8 h       5.6 h 
+INFO  22:18:00,446 ProgressMeter - NC_037328.1:90449001   8.99995E7    11.5 m       7.0 s        3.3%     5.8 h       5.6 h 
+INFO  22:18:30,451 ProgressMeter - NC_037328.1:94369601   9.39995E7    12.0 m       7.0 s        3.5%     5.8 h       5.6 h 
+INFO  22:19:00,452 ProgressMeter - NC_037328.1:98433201   9.79995E7    12.5 m       7.0 s        3.6%     5.7 h       5.5 h 
+INFO  22:19:30,453 ProgressMeter - NC_037328.1:102391701   1.019995E8    13.0 m       7.0 s        3.8%     5.7 h       5.5 h 
+INFO  22:20:00,593 ProgressMeter - NC_037328.1:106550401   1.059995E8    13.5 m       7.0 s        3.9%     5.7 h       5.5 h 
+INFO  22:20:30,594 ProgressMeter - NC_037328.1:110527301   1.099995E8    14.0 m       7.0 s        4.1%     5.7 h       5.5 h 
+INFO  22:21:00,597 ProgressMeter - NC_037328.1:114346501   1.139995E8    14.5 m       7.0 s        4.2%     5.7 h       5.5 h 
+INFO  22:21:30,602 ProgressMeter - NC_037328.1:118128901   1.179995E8    15.0 m       7.0 s        4.3%     5.7 h       5.5 h 
+INFO  22:22:00,628 ProgressMeter - NC_037328.1:122251201   1.219995E8    15.5 m       7.0 s        4.5%     5.7 h       5.5 h 
+INFO  22:22:30,630 ProgressMeter - NC_037328.1:126448901   1.259995E8    16.0 m       7.0 s        4.7%     5.7 h       5.5 h 
+INFO  22:23:00,631 ProgressMeter - NC_037328.1:130482001   1.299995E8    16.5 m       7.0 s        4.8%     5.7 h       5.4 h 
+INFO  22:23:30,634 ProgressMeter - NC_037328.1:134248101   1.339995E8    17.0 m       7.0 s        4.9%     5.7 h       5.4 h 
+INFO  22:24:00,648 ProgressMeter - NC_037328.1:137973601   1.369995E8    17.5 m       7.0 s        5.1%     5.7 h       5.4 h 
+INFO  22:24:30,649 ProgressMeter - NC_037328.1:141650201   1.40999475E8    18.0 m       7.0 s        5.2%     5.8 h       5.5 h 
+INFO  22:25:00,654 ProgressMeter - NC_037328.1:145173301   1.44999475E8    18.5 m       7.0 s        5.3%     5.8 h       5.5 h 
+INFO  22:25:30,657 ProgressMeter - NC_037328.1:148991501   1.47999475E8    19.0 m       7.0 s        5.5%     5.8 h       5.5 h 
+INFO  22:26:00,658 ProgressMeter - NC_037328.1:152953901   1.51999475E8    19.5 m       7.0 s        5.6%     5.8 h       5.4 h 
+INFO  22:26:30,659 ProgressMeter - NC_037328.1:156896526   1.55999475E8    20.0 m       7.0 s        5.8%     5.8 h       5.4 h 
+INFO  22:26:41,297 SelectVariants - 158532931 records processed. 
+INFO  22:26:42,548 ProgressMeter -            done   1.58532931E8    20.2 m       7.0 s        5.8%     5.8 h       5.4 h 
+INFO  22:26:42,548 ProgressMeter - Total runtime 1212.47 secs, 20.21 min, 0.34 hours 
+------------------------------------------------------------------------------------------
+Done. ------------------------------------------------------------------------------------------
+INFO  22:26:43,881 HelpFormatter - ---------------------------------------------------------------------------------- 
+INFO  22:26:43,882 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.7-0-gcfedb67, Compiled 2016/12/12 11:21:18 
+INFO  22:26:43,882 HelpFormatter - Copyright (c) 2010-2016 The Broad Institute 
+INFO  22:26:43,882 HelpFormatter - For support and documentation go to https://software.broadinstitute.org/gatk 
+INFO  22:26:43,883 HelpFormatter - [Thu Oct 08 22:26:43 PDT 2020] Executing on Linux 2.6.32-754.23.1.el6.x86_64 amd64 
+INFO  22:26:43,883 HelpFormatter - Java HotSpot(TM) 64-Bit Server VM 1.8.0_77-b03 
+INFO  22:26:43,886 HelpFormatter - Program Args: -R /u/home/c/ckyriazi/project-klohmuel/moose_pipeline/reference/GCF_002263795.1_ARS-UCD1.2_genomic.fna -T VariantsToTable -V /u/home/c/ckyriazi/kirk-bigdata/moose/output/genotyping_pipeline/11_FilterVCFfile/annotation_tables/NC_037328.1_snps.vcf --allowMissingData -F AN -F BaseQRankSum -F DP -F FS -F MQ -F MQRankSum -F QD -F ReadPosRankSum -F SOR --out /u/home/c/ckyriazi/kirk-bigdata/moose/output/genotyping_pipeline/11_FilterVCFfile/annotation_tables/NC_037328.1_SNPs_table.txt 
+INFO  22:26:43,890 HelpFormatter - Executing as ckyriazi@n7451 on Linux 2.6.32-754.23.1.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_77-b03. 
+INFO  22:26:43,891 HelpFormatter - Date/Time: 2020/10/08 22:26:43 
+INFO  22:26:43,891 HelpFormatter - ---------------------------------------------------------------------------------- 
+INFO  22:26:43,891 HelpFormatter - ---------------------------------------------------------------------------------- 
+INFO  22:26:44,582 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  22:26:44,944 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE, Target Coverage: 1000 
+INFO  22:26:45,553 GenomeAnalysisEngine - Preparing for traversal 
+INFO  22:26:45,557 GenomeAnalysisEngine - Done preparing for traversal 
+INFO  22:26:45,557 ProgressMeter - [INITIALIZATION COMPLETE; STARTING PROCESSING] 
+INFO  22:26:45,557 ProgressMeter -                 | processed |    time |    per 1M |           |   total | remaining 
+INFO  22:26:45,558 ProgressMeter -        Location |     sites | elapsed |     sites | completed | runtime |   runtime 
+##### ERROR ------------------------------------------------------------------------------------------
+##### ERROR A USER ERROR has occurred (version 3.7-0-gcfedb67): 
+##### ERROR
+##### ERROR This means that one or more arguments or inputs in your command are incorrect.
+##### ERROR The error message below tells you what is the problem.
+##### ERROR
+##### ERROR If the problem is an invalid argument, please check the online documentation guide
+##### ERROR (or rerun your command with --help) to view allowable command-line arguments for this tool.
+##### ERROR
+##### ERROR Visit our website and forum for extensive documentation and answers to 
+##### ERROR commonly asked questions https://software.broadinstitute.org/gatk
+##### ERROR
+##### ERROR Please do NOT post this error to the GATK forum unless you have really tried to fix it yourself.
+##### ERROR
+##### ERROR MESSAGE: The provided VCF file is malformed at approximately line number 2263: ./.:0,0:0:.:.:.:0,0,0 is not a valid start position in the VCF format, for input source: /u/home/c/ckyriazi/kirk-bigdata/moose/output/genotyping_pipeline/11_FilterVCFfile/annotation_tables/NC_037328.1_snps.vcf
+##### ERROR ------------------------------------------------------------------------------------------

@@ -4,8 +4,8 @@
 #$ -N covMoose
 #$ -cwd
 #$ -m bea
-#$ -o /u/home/c/ckyriazi/kirk-bigdata/moose/output/genotyping_pipeline/12_GetCoverage
-#$ -e /u/home/c/ckyriazi/kirk-bigdata/moose/output/genotyping_pipeline/12_GetCoverage
+#$ -o /u/home/c/ckyriazi/project-klohmuel/moose_pipeline/scripts/genotyping_pipeline/12_GetCoverage/per_individual/cow_scripts/jobfiles
+#$ -e /u/home/c/ckyriazi/project-klohmuel/moose_pipeline/scripts/genotyping_pipeline/12_GetCoverage/per_individual/cow_scripts/jobfiles
 #$ -M ckyriazi
 
 

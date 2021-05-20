@@ -3,7 +3,7 @@
 #$ -pe shared 4
 #$ -N moose_GenotypeGVCFs
 #$ -cwd
-#$ -m bea
+#$ -m a
 #$ -o /u/home/c/ckyriazi/kirk-bigdata/moose/output/genotyping_pipeline/08_GenotypeGVCFs/
 #$ -e /u/home/c/ckyriazi/kirk-bigdata/moose/output/genotyping_pipeline/08_GenotypeGVCFs/
 #$ -M ckyriazi
@@ -115,7 +115,7 @@ fi
 
 OutDir=$1
 
-AllIndividuals=(IR3920  IR3921  IR3925  IR3927  IR3928  IR3929  IR3930  IR3931  IR3934  MN15  MN178  MN31  MN41  MN54  MN72  MN76  MN92  MN96)
+AllIndividuals=(IR3925  IR3927  IR3928  IR3929 IR3930 IR3931  IR3934  MN15  MN178  MN31  MN41  MN54  MN72  MN76  MN92  MN96 C06 HM2013 JC2001 R199 SMoose)
 
 java -jar -Xmx16G ${GATK} \
 -T GenotypeGVCFs \
@@ -124,4 +124,4 @@ java -jar -Xmx16G ${GATK} \
 -stand_call_conf 0 \
 -L ${Chrom} \
 $(for Individual in "${AllIndividuals[@]}"; do echo "-V /u/home/c/ckyriazi/kirk-bigdata/moose/output/genotyping_pipeline/07_GATKHC/${Individual}/${Individual}_${Chrom}_GATK_HC.g.vcf.gz"; done) \
--o ${OutDir}/18Moose_joint_${Chrom}.vcf.gz
+-o ${OutDir}/21Moose_joint_${Chrom}.vcf.gz

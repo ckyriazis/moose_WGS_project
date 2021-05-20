@@ -1,11 +1,11 @@
 #!/bin/bash
 #$ -l highp,h_rt=150:00:00,h_data=6G
 #$ -pe shared 4
-#$ -N moose_TrimAlternates
+#$ -N caracals_TrimAlternates
 #$ -cwd
 #$ -m bea
-#$ -o /u/home/c/ckyriazi/kirk-bigdata/moose/output/genotyping_pipeline/09_TrimAlternates_VariantAnnotator/
-#$ -e /u/home/c/ckyriazi/kirk-bigdata/moose/output/genotyping_pipeline/09_TrimAlternates_VariantAnnotator/
+#$ -o /u/home/c/ckyriazi/kirk-bigdata/caracals/output/genotyping_pipeline/09_TrimAlternates_VariantAnnotator/
+#$ -e /u/home/c/ckyriazi/kirk-bigdata/caracals/output/genotyping_pipeline/09_TrimAlternates_VariantAnnotator/
 #$ -M ckyriazi
 
 
@@ -18,10 +18,10 @@
 module load java/1.8.0_77
 
 GATK="/u/home/c/ckyriazi/project-klohmuel/software/gatk_37/GenomeAnalysisTK.jar"
-REFERENCE=/u/home/c/ckyriazi/project-klohmuel/moose_pipeline/reference/GCF_002263795.1_ARS-UCD1.2_genomic.fna
-INDIR=/u/home/c/ckyriazi/kirk-bigdata/moose/output/genotyping_pipeline/08_GenotypeGVCFs/
-WORKDIR=/u/home/c/ckyriazi/kirk-bigdata/moose/output/genotyping_pipeline/09_TrimAlternates_VariantAnnotator
-TEMPDIR=/u/home/c/ckyriazi/kirk-bigdata/moose/output/genotyping_pipeline/09_TrimAlternates_VariantAnnotator
+REFERENCE=/u/home/c/ckyriazi/project-klohmuel/caracal_pipeline/reference/GCF_000181335.3_Felis_catus_9.0_genomic.fna
+INDIR=/u/home/c/ckyriazi/kirk-bigdata/caracals/output/genotyping_pipeline/08_GenotypeGVCFs/
+WORKDIR=/u/home/c/ckyriazi/kirk-bigdata/caracals/output/genotyping_pipeline/09_TrimAlternates_VariantAnnotator
+TEMPDIR=/u/home/c/ckyriazi/kirk-bigdata/caracals/output/genotyping_pipeline/09_TrimAlternates_VariantAnnotator
 
 
 if [ $SGE_TASK_ID == 1 ]
@@ -126,8 +126,8 @@ java -jar -Xmx26g -Djava.io.tmpdir=${TEMPDIR} ${GATK} \
 -R ${REFERENCE} \
 -trimAlternates \
 -L ${Chrom} \
--V ${INDIR}/18Moose_joint_${Chrom}.vcf.gz \
--o ${WORKDIR}/18Moose_joint_TrimAlternates_${Chrom}.vcf.gz &>> ${LOG}
+-V ${INDIR}/32Caracals_joint_${Chrom}.vcf.gz \
+-o ${WORKDIR}/32Caracals_joint_TrimAlternates_${Chrom}.vcf.gz &>> ${LOG}
 
 date >> ${LOG}
 
@@ -143,7 +143,7 @@ java -jar -Xmx26g -Djava.io.tmpdir=${TEMPDIR} ${GATK} \
 -A VariantType \
 -A AlleleBalance \
 -L ${Chrom} \
--V ${WORKDIR}/18Moose_joint_TrimAlternates_${Chrom}.vcf.gz \
--o ${WORKDIR}/18Moose_joint_VariantAnnotator_${Chrom}.vcf.gz &>> ${LOG}
+-V ${WORKDIR}/32Caracals_joint_TrimAlternates_${Chrom}.vcf.gz \
+-o ${WORKDIR}/32Caracals_joint_VariantAnnotator_${Chrom}.vcf.gz &>> ${LOG}
 
 date >> ${LOG}

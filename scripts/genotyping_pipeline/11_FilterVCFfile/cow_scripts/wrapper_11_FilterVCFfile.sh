@@ -1,5 +1,5 @@
 #!/bin/bash
 
 
-qsub -t 28-30:1 11_FilterVCFfile_new.sh
+qsub -t 3-3 11_FilterVCFfile_100920.sh
 

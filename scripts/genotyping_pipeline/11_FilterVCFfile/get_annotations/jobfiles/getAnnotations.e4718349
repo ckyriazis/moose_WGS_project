@@ -1,0 +1,57 @@
+INFO  22:01:13,578 HelpFormatter - ---------------------------------------------------------------------------------- 
+INFO  22:01:13,583 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.7-0-gcfedb67, Compiled 2016/12/12 11:21:18 
+INFO  22:01:13,583 HelpFormatter - Copyright (c) 2010-2016 The Broad Institute 
+INFO  22:01:13,583 HelpFormatter - For support and documentation go to https://software.broadinstitute.org/gatk 
+INFO  22:01:13,583 HelpFormatter - [Thu Oct 08 22:01:13 PDT 2020] Executing on Linux 2.6.32-754.23.1.el6.x86_64 amd64 
+INFO  22:01:13,583 HelpFormatter - Java HotSpot(TM) 64-Bit Server VM 1.8.0_77-b03 
+INFO  22:01:13,586 HelpFormatter - Program Args: -T SelectVariants -R /u/home/c/ckyriazi/project-klohmuel/moose_pipeline/reference/GCF_002263795.1_ARS-UCD1.2_genomic.fna -V 18Moose_joint_FilterA_Round13_NC_037328.1.vcf.gz -selectType SNP -o annotation_tables/NC_037328.1_snps.vcf 
+INFO  22:01:13,596 HelpFormatter - Executing as ckyriazi@n7451 on Linux 2.6.32-754.23.1.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_77-b03. 
+INFO  22:01:13,596 HelpFormatter - Date/Time: 2020/10/08 22:01:13 
+INFO  22:01:13,596 HelpFormatter - ---------------------------------------------------------------------------------- 
+INFO  22:01:13,596 HelpFormatter - ---------------------------------------------------------------------------------- 
+INFO  22:01:13,680 GenomeAnalysisEngine - Strictness is SILENT 
+INFO  22:01:14,115 GenomeAnalysisEngine - Downsampling Settings: Method: BY_SAMPLE, Target Coverage: 1000 
+WARN  22:01:14,307 IndexDictionaryUtils - Track variant doesn't have a sequence dictionary built in, skipping dictionary validation 
+##### ERROR ------------------------------------------------------------------------------------------
+##### ERROR A USER ERROR has occurred (version 3.7-0-gcfedb67): 
+##### ERROR
+##### ERROR This means that one or more arguments or inputs in your command are incorrect.
+##### ERROR The error message below tells you what is the problem.
+##### ERROR
+##### ERROR If the problem is an invalid argument, please check the online documentation guide
+##### ERROR (or rerun your command with --help) to view allowable command-line arguments for this tool.
+##### ERROR
+##### ERROR Visit our website and forum for extensive documentation and answers to 
+##### ERROR commonly asked questions https://software.broadinstitute.org/gatk
+##### ERROR
+##### ERROR Please do NOT post this error to the GATK forum unless you have really tried to fix it yourself.
+##### ERROR
+##### ERROR MESSAGE: Could not write file /u/project/kirk-bigdata/ckyriazi/moose/output/genotyping_pipeline/11_FilterVCFfile/round13/annotation_tables/NC_037328.1_snps.vcf because either the containing directory doesn't exist or it isn't writable
+##### ERROR ------------------------------------------------------------------------------------------
+INFO  22:01:16,094 HelpFormatter - ---------------------------------------------------------------------------------- 
+INFO  22:01:16,096 HelpFormatter - The Genome Analysis Toolkit (GATK) v3.7-0-gcfedb67, Compiled 2016/12/12 11:21:18 
+INFO  22:01:16,096 HelpFormatter - Copyright (c) 2010-2016 The Broad Institute 
+INFO  22:01:16,096 HelpFormatter - For support and documentation go to https://software.broadinstitute.org/gatk 
+INFO  22:01:16,096 HelpFormatter - [Thu Oct 08 22:01:16 PDT 2020] Executing on Linux 2.6.32-754.23.1.el6.x86_64 amd64 
+INFO  22:01:16,096 HelpFormatter - Java HotSpot(TM) 64-Bit Server VM 1.8.0_77-b03 
+INFO  22:01:16,099 HelpFormatter - Program Args: -R /u/home/c/ckyriazi/project-klohmuel/moose_pipeline/reference/GCF_002263795.1_ARS-UCD1.2_genomic.fna -T VariantsToTable -V annotation_tables/NC_037328.1_snps.vcf --allowMissingData -F AN -F BaseQRankSum -F DP -F FS -F MQ -F MQRankSum -F QD -F ReadPosRankSum -F SOR --out annotation_tables/NC_037328.1_SNPs_table.txt 
+INFO  22:01:16,102 HelpFormatter - Executing as ckyriazi@n7451 on Linux 2.6.32-754.23.1.el6.x86_64 amd64; Java HotSpot(TM) 64-Bit Server VM 1.8.0_77-b03. 
+INFO  22:01:16,102 HelpFormatter - Date/Time: 2020/10/08 22:01:16 
+INFO  22:01:16,102 HelpFormatter - ---------------------------------------------------------------------------------- 
+INFO  22:01:16,102 HelpFormatter - ---------------------------------------------------------------------------------- 
+##### ERROR ------------------------------------------------------------------------------------------
+##### ERROR A USER ERROR has occurred (version 3.7-0-gcfedb67): 
+##### ERROR
+##### ERROR This means that one or more arguments or inputs in your command are incorrect.
+##### ERROR The error message below tells you what is the problem.
+##### ERROR
+##### ERROR If the problem is an invalid argument, please check the online documentation guide
+##### ERROR (or rerun your command with --help) to view allowable command-line arguments for this tool.
+##### ERROR
+##### ERROR Visit our website and forum for extensive documentation and answers to 
+##### ERROR commonly asked questions https://software.broadinstitute.org/gatk
+##### ERROR
+##### ERROR Please do NOT post this error to the GATK forum unless you have really tried to fix it yourself.
+##### ERROR
+##### ERROR MESSAGE: Could not read file /u/project/kirk-bigdata/ckyriazi/moose/output/genotyping_pipeline/11_FilterVCFfile/round13/annotation_tables/NC_037328.1_snps.vcf because file 'annotation_tables/NC_037328.1_snps.vcf' does not exist
+##### ERROR ------------------------------------------------------------------------------------------

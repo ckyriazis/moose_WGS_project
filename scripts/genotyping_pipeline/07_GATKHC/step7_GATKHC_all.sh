@@ -1,5 +1,5 @@
 #!/bin/bash
-#$ -l highp,h_rt=150:00:00,h_data=6G
+#$ -l highp,h_rt=100:00:00,h_data=6G
 #$ -pe shared 4
 #$ -N moose_GATKHC
 #$ -cwd

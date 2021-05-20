@@ -4,8 +4,8 @@
 #$ -N subset_ROH
 #$ -cwd
 #$ -m bea
-#$ -o /u/home/c/ckyriazi/project-klohmuel/moose_pipeline/scripts/analysis/ROH/bcftools/runfiles
-#$ -e /u/home/c/ckyriazi/project-klohmuel/moose_pipeline/scripts/analysis/ROH/bcftools/runfiles
+#$ -o /u/home/c/ckyriazi/project-klohmuel/moose_pipeline/scripts/analysis/ROH/bcftools/jobfiles
+#$ -e /u/home/c/ckyriazi/project-klohmuel/moose_pipeline/scripts/analysis/ROH/bcftools/jobfiles
 #$ -M ckyriazi
 
 
@@ -16,8 +16,7 @@
 
 cd /u/home/c/ckyriazi/kirk-bigdata/moose/output/analysis/ROH_IBD/ 
 
-file=18moose_round9_roh_bcftools_G30.out
-#file=test.txt
+file=21moose_round1_roh_bcftools_G30_noSMoose.out
 
 tail -n +6 ${file} > tmp.txt
 
@@ -33,8 +32,6 @@ awk '$2 == "MN41" { print }' tmp.txt > MN41_${file}
 awk '$2 == "MN54" { print }' tmp.txt > MN54_${file}
 awk '$2 == "MN96" { print }' tmp.txt > MN96_${file}
 
-awk '$2 == "IR3920" { print }' tmp.txt > IR3920_${file}
-awk '$2 == "IR3921" { print }' tmp.txt > IR3921_${file}
 awk '$2 == "IR3930" { print }' tmp.txt > IR3930_${file}
 awk '$2 == "IR3934" { print }' tmp.txt > IR3934_${file}
 awk '$2 == "MN15" { print }' tmp.txt > MN15_${file}
@@ -43,12 +40,26 @@ awk '$2 == "MN72" { print }' tmp.txt > MN72_${file}
 awk '$2 == "MN76" { print }' tmp.txt > MN76_${file}
 awk '$2 == "MN92" { print }' tmp.txt > MN92_${file}
 
+awk '$2 == "C06" { print }' tmp.txt > C06_${file}
+awk '$2 == "HM2013" { print }' tmp.txt > HM2013_${file}
+awk '$2 == "JC2001" { print }' tmp.txt > JC2001_${file}
+awk '$2 == "R199" { print }' tmp.txt > R199_${file}
+$awk '$2 == "SMoose" { print }' tmp.txt > SMoose_${file}
+
+
 
 
 wait
 
 gzip IR*
 gzip MN*
+gzip C06*
+gzip HM2013*
+gzip JC2001*
+gzip R199*
+#gzip SMoose*
+gzip ${file}
+rm tmp.txt
 
 
 

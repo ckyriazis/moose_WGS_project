@@ -1,0 +1,12 @@
+[2021-01-30 08:15:21] Start creating bed files for cow 16 JOB_ID: 6353443
+The qsub input
+cow 1[2[2021-01-30 08:15:21] Start creating bed files for cow 21 JOB_ID: 6353443
+The qsub input
+cow 21
+cow 29
+[2021-01-30 08:15:21] Start creating bed files for cow 26 JOB_ID: 6353443
+The qsub input
+cow 26
+[2021-01-30 08:15:22] Start creating bed files for cow 30 JOB_ID: 6353443
+The qsub input
+cow 30

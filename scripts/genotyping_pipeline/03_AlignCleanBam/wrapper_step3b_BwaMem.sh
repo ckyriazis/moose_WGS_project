@@ -1,8 +1,7 @@
 #!/bin/bash
 
 
-individuals_array=(R199 JC2001 C06 HM2013)
-
+individuals_array=(SMoose)
 
 for i in "${individuals_array[@]}"
 do

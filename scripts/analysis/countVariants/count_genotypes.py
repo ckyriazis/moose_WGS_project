@@ -63,6 +63,11 @@ for line0 in inVCF:
     if homAltAll == len(samples):
         continue
 
+    # skip sites that are fixed ref
+    homRefAll = all_calls.count("0/0") + all_calls.count("0|0") + all_calls.count("./.")
+    if homRefAll == len(samples):
+        continue
+
 
     for ind in enumerate(ind_called_geno_counts):
         ind_call=all_calls[ind[0]]

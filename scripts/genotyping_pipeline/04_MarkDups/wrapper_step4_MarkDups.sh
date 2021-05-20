@@ -2,7 +2,7 @@
 
 
 # Uncomment the line below and fill in the name of the individuals.
-individuals_array=(MN76)
+individuals_array=(SMoose)
 
 for i in "${individuals_array[@]}"
 do
