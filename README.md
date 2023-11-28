@@ -1,6 +1,6 @@
 # moose_WGS_project
 
-This contains scripts associated with Kyriazis et al. 2022 bioRxiv analysis of North American moose genomes
+This contains scripts associated with Kyriazis et al. 2023 MBE analysis of North American moose genomes: https://doi.org/10.1093/molbev/msad021
 
 'scripts' directory contains scripts for WGS processing and analysis
 
